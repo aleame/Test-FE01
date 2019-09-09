@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="138.586977">
+<testcase classname="Regresion navegabilidad MeLi" name="Navegabilidad de categorias en MercadoLibre" time="25.082555">
+<system-out><![CDATA[Given El Usuario ingresa al sitio de MercadoLibre "https://www.mercadolibre.com.ar/".passed
+And El Usuario desplega el menu Categorias haciend clic y se visualiza el submenu.passed
+And El Usuario hace clic en el submenu "Hogar y Electrodomésticos" y visualiza el desplegable.passed
+And El Usuario hace clic en el deplegable "Climatización" y visauliza la categoria solicitada.passed
+And El Usuario selecciona la ubicacion Capital Federal para filtar la busqueda por region.passed
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle.passed
+]]></system-out>
+</testcase>
+<testcase classname="Regresion navegabilidad MeLi" name="Navegabilidad de categorias en MercadoLibre 2" time="24.586815">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.item\-title__primary&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-J587MH3', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\levia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bd323d9a949649bacaadcf08ccf5152f&#10;*** Element info: {Using=class name, value=item-title__primary}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)&#13;&#10;&#9;at org.openqa.selenium.By$ByClassName.findElement(By.java:389)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:137)&#13;&#10;&#9;at ✽.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)&#13;&#10;"><![CDATA[Given El Usuario ingresa al sitio de MercadoLibre "https://www.mercadolibre.com.ar/".passed
+And El Usuario desplega el menu Categorias haciend clic y se visualiza el submenu.passed
+And El Usuario hace clic en el submenu "Tecnología" y visualiza el desplegable.passed
+And El Usuario hace clic en el deplegable "Celulares y Smartphones" y visauliza la categoria solicitada.passed
+And El Usuario selecciona la ubicacion Capital Federal para filtar la busqueda por region.passed
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle.failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".item\-title__primary"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J587MH3', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\levia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd323d9a949649bacaadcf08ccf5152f
+*** Element info: {Using=class name, value=item-title__primary}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:137)
+	at ✽.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Regresion navegabilidad MeLi" name="Navegabilidad de categorias en MercadoLibre 3" time="23.432008">
+<failure message="junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:&lt;1[0.7]99&gt; but was:&lt;1[7.9]99&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)&#13;&#10;&#9;at ✽.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)&#13;&#10;"><![CDATA[Given El Usuario ingresa al sitio de MercadoLibre "https://www.mercadolibre.com.ar/".passed
+And El Usuario desplega el menu Categorias haciend clic y se visualiza el submenu.passed
+And El Usuario hace clic en el submenu "Deportes y Aire Libre" y visualiza el desplegable.passed
+And El Usuario hace clic en el deplegable "Bicicletas" y visauliza la categoria solicitada.passed
+And El Usuario selecciona la ubicacion Capital Federal para filtar la busqueda por region.passed
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle.failed
+
+StackTrace:
+junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:<1[0.7]99> but was:<1[7.9]99>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)
+	at ✽.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Regresion navegabilidad MeLi" name="Navegabilidad de categorias en MercadoLibre 4" time="23.444867">
+<system-out><![CDATA[Given El Usuario ingresa al sitio de MercadoLibre "https://www.mercadolibre.com.ar/".passed
+And El Usuario desplega el menu Categorias haciend clic y se visualiza el submenu.passed
+And El Usuario hace clic en el submenu "Herramientas e Industria" y visualiza el desplegable.passed
+And El Usuario hace clic en el deplegable "Industria Textil" y visauliza la categoria solicitada.passed
+And El Usuario selecciona la ubicacion Capital Federal para filtar la busqueda por region.passed
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle.passed
+]]></system-out>
+</testcase>
+<testcase classname="Regresion navegabilidad MeLi" name="Navegabilidad de categorias en MercadoLibre 5" time="25.141395">
+<failure message="junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:&lt;[7.499]&gt; but was:&lt;[10.124]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)&#13;&#10;&#9;at ✽.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)&#13;&#10;"><![CDATA[Given El Usuario ingresa al sitio de MercadoLibre "https://www.mercadolibre.com.ar/".passed
+And El Usuario desplega el menu Categorias haciend clic y se visualiza el submenu.passed
+And El Usuario hace clic en el submenu "Juguetes y Bebés" y visualiza el desplegable.passed
+And El Usuario hace clic en el deplegable "Cuarto del Bebé" y visauliza la categoria solicitada.passed
+And El Usuario selecciona la ubicacion Capital Federal para filtar la busqueda por region.passed
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle.failed
+
+StackTrace:
+junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:<[7.499]> but was:<[10.124]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)
+	at ✽.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Regresion navegabilidad MeLi" name="Navegabilidad de categorias en MercadoLibre 6" time="16.899337">
+<failure message="junit.framework.ComparisonFailure: El parametro de busqueda no es el esperado expected:&lt;[]Historia&gt; but was:&lt;[Libros de Ciencias Sociales ]Historia&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at stepDefinition.testStep.el_Usuario_hace_clic_en_el_deplegable_y_visauliza_la_categoria_solicitada(testStep.java:108)&#13;&#10;&#9;at ✽.And El Usuario hace clic en el deplegable &quot;Historia&quot; y visauliza la categoria solicitada(./Features/FeatureTest01.feature:8)&#13;&#10;"><![CDATA[Given El Usuario ingresa al sitio de MercadoLibre "https://www.mercadolibre.com.ar/".passed
+And El Usuario desplega el menu Categorias haciend clic y se visualiza el submenu.passed
+And El Usuario hace clic en el submenu "Libros" y visualiza el desplegable..passed
+And El Usuario hace clic en el deplegable "Historia" y visauliza la categoria solicitada.failed
+And El Usuario selecciona la ubicacion Capital Federal para filtar la busqueda por region.skipped
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle.skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: El parametro de busqueda no es el esperado expected:<[]Historia> but was:<[Libros de Ciencias Sociales ]Historia>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.el_Usuario_hace_clic_en_el_deplegable_y_visauliza_la_categoria_solicitada(testStep.java:108)
+	at ✽.And El Usuario hace clic en el deplegable "Historia" y visauliza la categoria solicitada(./Features/FeatureTest01.feature:8)
+]]></failure>
+</testcase>
+</testsuite>

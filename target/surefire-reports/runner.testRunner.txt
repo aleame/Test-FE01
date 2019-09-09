@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+Test set: runner.testRunner
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 6, Errors: 2, Skipped: 2, Time elapsed: 139.197 sec <<< FAILURE!
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(| homo1 | Tecnología | Celulares y Smartphones |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".item\-title__primary"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J587MH3', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\levia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd323d9a949649bacaadcf08ccf5152f
+*** Element info: {Using=class name, value=item-title__primary}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:137)
+	at ?.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+
+| homo1 | Tecnología | Celulares y Smartphones |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".item\-title__primary"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J587MH3', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\levia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd323d9a949649bacaadcf08ccf5152f
+*** Element info: {Using=class name, value=item-title__primary}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:137)
+	at ?.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(| homo1 | Deportes y Aire Libre | Bicicletas |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:<1[0.7]99> but was:<1[7.9]99>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)
+	at ?.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+
+| homo1 | Deportes y Aire Libre | Bicicletas |  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:<1[0.7]99> but was:<1[7.9]99>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)
+	at ?.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+
+And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(| homo1 | Juguetes y Bebés | Cuarto del Bebé |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:<[7.499]> but was:<[10.124]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)
+	at ?.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+
+| homo1 | Juguetes y Bebés | Cuarto del Bebé |  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: El precio del producto seleccionado no es el esperado expected:<[7.499]> but was:<[10.124]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.finalmente_el_Usuario_selecciona_una_publicacion_y_visualiza_su_detalle(testStep.java:141)
+	at ?.And Finalmente el Usuario selecciona una publicacion y visualiza su detalle(./Features/FeatureTest01.feature:10)
+
+And El Usuario hace clic en el deplegable "Historia" y visauliza la categoria solicitada(| homo1 | Libros | Historia |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: El parametro de busqueda no es el esperado expected:<[]Historia> but was:<[Libros de Ciencias Sociales ]Historia>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.el_Usuario_hace_clic_en_el_deplegable_y_visauliza_la_categoria_solicitada(testStep.java:108)
+	at ?.And El Usuario hace clic en el deplegable "Historia" y visauliza la categoria solicitada(./Features/FeatureTest01.feature:8)
+
+| homo1 | Libros | Historia |  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: El parametro de busqueda no es el esperado expected:<[]Historia> but was:<[Libros de Ciencias Sociales ]Historia>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at stepDefinition.testStep.el_Usuario_hace_clic_en_el_deplegable_y_visauliza_la_categoria_solicitada(testStep.java:108)
+	at ?.And El Usuario hace clic en el deplegable "Historia" y visauliza la categoria solicitada(./Features/FeatureTest01.feature:8)
+
